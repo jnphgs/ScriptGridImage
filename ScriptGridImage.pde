@@ -12,7 +12,7 @@ void draw(){
   }
   
   background(255);
-  drawSimpleGrid(8, 8);
+  drawGridWithText(8, 8);
   
   if(bSave){
     endRecord();
