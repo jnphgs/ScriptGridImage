@@ -7,12 +7,12 @@
 For gaming and CG prototyping, there are several easy-to-use UV check pattern textures on the Internet.
 But they have the following problems.
 
-- It is unclear who made it.
+- It's unclear who made it.
 - The license is unclear.
 - The resolution is different.
 - The image is compressed.
 
-So in this repository, I manage the Processing code that generates test patterns and the generated SVG files.
+So in this repository, I manage the Processing code that generates grid patterns and their SVG files.
 By using SVG files, You can export the image at any resolution using other apps.
 And the license is clear because it is managed on github.
 You can use those images freely for making any commercial tutorials or plugins etc.
