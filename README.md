@@ -1,7 +1,7 @@
 # Script Grid Image
 
 ![render.png](Blender/render.png)
-**Rendered image with Blender 2.8(EEVEE)**
+*Rendered image with Blender 2.8(EEVEE)*
 
 ## Introduction
 For gaming and CG prototyping, there are several easy-to-use UV check pattern textures on the Internet.
