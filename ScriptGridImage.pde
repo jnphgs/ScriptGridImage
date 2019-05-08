@@ -1,5 +1,6 @@
 import processing.svg.*;
 boolean bSave = false;
+GridWithColor gridWithColor = new GridWithColor();
 
 void setup(){
   size(1024, 1024);
@@ -12,7 +13,7 @@ void draw(){
   }
   
   background(255);
-  drawGridWithText(8, 8);
+  gridWithColor.draw(8, 8);
   
   if(bSave){
     endRecord();
