@@ -1,6 +1,7 @@
-# ScriptGridImage
+# Script Grid Image
 
-<img src="https://raw.githubusercontent.com/jnphgs/ScriptGridImage/master/SimpleGrid/SimpleGrid.png" width="200" height="200">
+![render.png](Blender/render.png)
+**Rendered image with Blender 2.8(EEVEE)**
 
 ## Introduction
 For gaming and CG prototyping, there are several easy-to-use UV check pattern textures on the Internet.
