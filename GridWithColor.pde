@@ -3,7 +3,7 @@ class GridWithColor{
     
   }
   color[] colors = {
-    #05668D, #028090, #00A896, #02C39A, #F0F3BD
+    #05668D, #028090, #02C39A, #F0F3BD
   };
   
   int largeText = 26;
