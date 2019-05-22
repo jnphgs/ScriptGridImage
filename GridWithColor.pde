@@ -9,6 +9,7 @@ class GridWithColor{
   int largeText = 26;
   
   void draw(int xGrid, int yGrid){
+    background(255);
     float gw = 1.0*width/xGrid;
     float gh = 1.0*height/yGrid;
     

@@ -3,6 +3,7 @@ class SimpleGrid{
   }
   
   void draw(int xGrid, int yGrid){
+    background(255);
     stroke(0);
     float gw = 1.0*width/xGrid;
     float gh = 1.0*height/yGrid;

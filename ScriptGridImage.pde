@@ -3,9 +3,15 @@ boolean bSave = false;
 SimpleGrid simpleGrid = new SimpleGrid();
 GridWithText gridWithText = new GridWithText();
 GridWithColor gridWithColor = new GridWithColor();
+CustomGrid customGrid = new CustomGrid();
+PFont font;
+// The font must be located in the sketch's 
+// "data" directory to load successfully
 
 void setup(){
   size(1024, 1024);
+  font = createFont("SansSerif", 32);
+  textFont(font);
 }
 
 void draw(){
@@ -14,10 +20,11 @@ void draw(){
     beginRecord(SVG, "grid.svg");
   }
   
-  background(255);
+  
   //simpleGrid.draw(8, 8);
   //gridWithText.draw(8, 8);
-  gridWithColor.draw(8, 8);
+  //gridWithColor.draw(8, 8);
+  customGrid.draw(8, 8);
   
   if(bSave){
     endRecord();
